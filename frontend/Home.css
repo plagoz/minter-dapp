@@ -71,7 +71,7 @@ ul.rb li .timestamp {
 }
 
 #wrapper{
-  background-image: url("images/pic1.jpg");
+  content: url("images/pic1.jpg");
 }
 
 .u-section-1 .u-sheet-1 {
