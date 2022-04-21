@@ -214,6 +214,7 @@ ul.rb li .timestamp {
   grid-template-columns: calc(33.3333% - 6.66667px) calc(33.3333% - 6.66667px) calc(33.3333% - 6.66667px);
   grid-gap: 10px 10px;
   min-height: 432px;
+  background: #232931;
 }
 
 .u-section-5 .u-container-layout-1 {
