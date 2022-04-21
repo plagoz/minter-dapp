@@ -18,13 +18,13 @@
       var $top   = $('#wrapper');
     
       setInterval(function() {
-        $top.animate({ opacity: 0 }, 100, function() {
+        $top.animate({ opacity: 0 }, 500, function() {
           $top.css('background-image', 'url('+images[++index]+')');
-          $top.animate({ opacity: 1 }, 100, function() {
+          $top.animate({ opacity: 1 }, 500, function() {
             if(index === images.length) index = 0;
           });
         });
-      }, 100);
+      }, 1000);
     
     </script>
     <meta name="generator" content="Nicepage 4.8.2, nicepage.com">
