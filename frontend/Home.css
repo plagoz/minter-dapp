@@ -71,7 +71,7 @@ ul.rb li .timestamp {
 }
 
 #wrapper{
-  background-image: url("images/pic1.jpg")
+  background-image: url("images/pic1.jpg");
 }
 
 .u-section-1 .u-sheet-1 {
@@ -84,7 +84,6 @@ ul.rb li .timestamp {
 
 .u-section-1 .u-image-1 {
   min-height: 590px;
-  background-image: url("images/pic1.jpg");
   background-position: 50% 50%;
 }
 
