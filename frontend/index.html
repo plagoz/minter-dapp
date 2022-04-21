@@ -243,34 +243,18 @@
 </html>
 
 <script>
-  var index = 0;
-  var backgrounds = [];
+  var images = ['images/pic1.jpg', 'images/pic2.jpg', 'images/pic3.jpg', 'images/pic4.jpg', 'images/pic5.jpg', 'images/pic6.jpg', 'images/pic7.jpg'];
 
-  backgrounds[0] = "images/pic1.jpg";
-  backgrounds[1] = "images/pic2.jpg";
-  backgrounds[2] = "images/pic3.jpg";
-  backgrounds[3] = "images/pic4.jpg";
-  backgrounds[4] = "images/pic5.jpg";
-  backgrounds[5] = "images/pic6.jpg";
-  backgrounds[6] = "images/pic7.jpg";
+  var index  = 0;
+  var $top   = $('#wrapper');
 
-  function changeBackground() { 
-  
-    $("#wrapper").css({
-      "background-image": "url(" + backgrounds[index] + ")"
+  setInterval(function() {
+    $top.animate({ opacity: 0 }, 100, function() {
+      $top.css('background-image', 'url('+images[++index]+')');
+      $top.animate({ opacity: 1 }, 100, function() {
+        if(index === images.length) index = 0;
+      });
     });
-
-    index++;
-    if (index > backgrounds.length-1){
-      index = 0;
-    }
-
-    /*Changing h1 content*/
-
-  }
-
-  $(document).ready(function() {
-  setInterval(changeBackground, 500);
-  });
+  }, 100);
 
 </script>
