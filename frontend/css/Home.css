@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+
 .container {
   background: #232931;
   width: 540px;
@@ -9,7 +11,6 @@
 }
 
 .rightbox {
-  padding: 0em 34rem 0em 0em;
   height: 100%;
 }
 
@@ -64,6 +65,10 @@ ul.rb li .timestamp {
   position: relative;
   width: 100px;
   font-size: 12px;
+}
+
+.item-title {
+  color: #fff;
 }
 
 .u-section-1 .u-sheet-1 {
