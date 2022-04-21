@@ -11,6 +11,22 @@
 <link rel="stylesheet" href="Home.css" media="screen">
     <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
     <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
+    <script>
+      var images = ['images/pic1.jpg', 'images/pic2.jpg', 'images/pic3.jpg', 'images/pic4.jpg', 'images/pic5.jpg', 'images/pic6.jpg', 'images/pic7.jpg'];
+    
+      var index  = 0;
+      var $top   = $('#wrapper');
+    
+      setInterval(function() {
+        $top.animate({ opacity: 0 }, 500, function() {
+          $top.css('background-image', 'url('+images[++index]+')');
+          $top.animate({ opacity: 1 }, 500, function() {
+            if(index === images.length) index = 0;
+          });
+        });
+      }, 100);
+    
+    </script>
     <meta name="generator" content="Nicepage 4.8.2, nicepage.com">
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
     
@@ -66,8 +82,8 @@
         <div class="u-clearfix u-expanded-width u-gutter-0 u-layout-wrap u-layout-wrap-1">
           <div class="u-layout" style="">
             <div class="u-layout-row" style="">
-              <div class="u-align-left u-container-style u-image u-layout-cell u-left-cell u-size-30 u-size-xs-60 u-image-1" id="wrapper" src="" data-image-width="2048" data-image-height="2048">
-                <div class="u-container-layout u-valign-middle u-container-layout-1" src="">
+              <div class="u-align-left u-container-style u-image u-layout-cell u-left-cell u-size-30 u-size-xs-60 u-image-1" src="" data-image-width="2048" data-image-height="2048">
+                <div id="wrapper" class="u-container-layout u-valign-middle u-container-layout-1" src="">
                 </div>
               </div>
               <div class="u-align-left u-container-style u-layout-cell u-right-cell u-shape-rectangle u-size-30 u-size-xs-60 u-white u-layout-cell-2">
@@ -240,20 +256,4 @@
       </a>. 
     </section>
   </body>
-  <script>
-    var images = ['images/pic1.jpg', 'images/pic2.jpg', 'images/pic3.jpg', 'images/pic4.jpg', 'images/pic5.jpg', 'images/pic6.jpg', 'images/pic7.jpg'];
-  
-    var index  = 0;
-    var $top   = $('#wrapper');
-  
-    setInterval(function() {
-      $top.animate({ opacity: 0 }, 500, function() {
-        $top.css('background-image', 'url('+images[++index]+')');
-        $top.animate({ opacity: 1 }, 500, function() {
-          if(index === images.length) index = 0;
-        });
-      });
-    }, 1000);
-  
-  </script>
 </html>
