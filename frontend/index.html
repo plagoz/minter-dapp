@@ -67,7 +67,7 @@
           <div class="u-layout" style="">
             <div class="u-layout-row" style="">
               <div class="u-align-left u-container-style u-image u-layout-cell u-left-cell u-size-30 u-size-xs-60 u-image-1" src="" data-image-width="2048" data-image-height="2048">
-                <div class="u-container-layout u-valign-middle u-container-layout-1" src=""></div>
+                <div id="wrapper" class="u-container-layout u-valign-middle u-container-layout-1" src=""></div>
               </div>
               <div class="u-align-left u-container-style u-layout-cell u-right-cell u-shape-rectangle u-size-30 u-size-xs-60 u-white u-layout-cell-2">
                 <div class="u-container-layout u-valign-middle u-container-layout-2">
@@ -240,3 +240,36 @@
     </section>
   </body>
 </html>
+
+<script>
+  var index = 0;
+  var backgrounds = [];
+
+  backgrounds[0] = "images/header/pic1.jpg";
+  backgrounds[1] = "images/header/pic2.jpg";
+  backgrounds[2] = "images/header/pic3.jpg";
+  backgrounds[3] = "images/header/pic4.jpg";
+  backgrounds[4] = "images/header/pic5.jpg";
+  backgrounds[5] = "images/header/pic6.jpg";
+  backgrounds[6] = "images/header/pic7.jpg";
+
+  function changeBackground() { 
+  
+    $("#wrapper").css({
+      "background-image": "url('" + backgrounds[index] + "')"
+    });
+
+    index++;
+    if (index > backgrounds.length-1){
+      index = 0;
+    }
+
+    /*Changing h1 content*/
+
+  }
+
+  $(document).ready(function() {
+  setInterval(changeBackground, 500);
+  });
+
+</script>
