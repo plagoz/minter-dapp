@@ -66,7 +66,7 @@
         <div class="u-clearfix u-expanded-width u-gutter-0 u-layout-wrap u-layout-wrap-1">
           <div class="u-layout" style="">
             <div class="u-layout-row" style="">
-              <div class="u-align-left u-container-style u-image u-layout-cell u-left-cell u-size-30 u-size-xs-60 u-image-1" src="" data-image-width="2048" data-image-height="2048">
+              <div id="cycleImg" class="u-align-left u-container-style u-image u-layout-cell u-left-cell u-size-30 u-size-xs-60 u-image-1" src="" data-image-width="2048" data-image-height="2048">
                 <div class="u-container-layout u-valign-middle u-container-layout-1" src=""></div>
               </div>
               <div class="u-align-left u-container-style u-layout-cell u-right-cell u-shape-rectangle u-size-30 u-size-xs-60 u-white u-layout-cell-2">
@@ -255,7 +255,7 @@
 
   function changeBackground() { 
   
-    $(".u-section-1 .u-image-1").css({
+    $("#cycleImg").css({
       "background-image": "url('" + backgrounds[index] + "')"
     });
 
