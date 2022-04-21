@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
 
 .container {
-  width: 540px;
-  height: 500px;
+  width: 100%;
+  height: 100%;
   margin: 0 auto;
   position: relative;
   margin-top: 10%;
