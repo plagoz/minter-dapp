@@ -15,7 +15,7 @@
 }
 .timeline ul{
   list-style-type:none;
-  border-left:2px solid #094a68;
+  border-left:2px solid #ffffff;
   padding:10px 5px;
 }
 .timeline ul li{
@@ -26,14 +26,14 @@
 }
 .timeline ul li span{
   display:inline-block;
-  background-color:#1685b8;
+  background-color:#000000;
   border-radius:25px;
   padding:2px 5px;
   font-size:15px;
   text-align:center;
 }
 .timeline ul li .content h3{
-  color:#34ace0;
+  color:#ffffff;
   font-size:17px;
   padding-top:5px;
 }
