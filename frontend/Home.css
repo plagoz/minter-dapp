@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');*/
 .timeline, .conten{
   padding:0px;
   margin:0px;
   box-sizing:border-box;
-  font-family:'Poppins', sans-serif;
+  /*font-family:'Poppins', sans-serif;*/
   perspective:800px;
 }
 .timeline{
-  width:800px;
+  width:100%;
   background-color:#232931;
   color:#fff;
   padding:30px 20px;
