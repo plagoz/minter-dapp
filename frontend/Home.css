@@ -46,14 +46,14 @@
   content:'';
   width:10px;
   height:10px;
-  background-color:#34ace0;
+  background-color:#232931;
   border-radius:50%;
   left:-11px;
   top:28px;
   transition:.5s;
 }
 .timeline ul li:hover{
-  background-color:#071f2a;
+  background-color:#616161;
 }
 .timeline ul li:hover:before{
   background-color:#0F0;
