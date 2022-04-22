@@ -1,73 +1,74 @@
-@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
-
-.container {
-  background: #232931;
-  width: 100%;
-  height: 100%;
-  margin: 0 auto;
-  position: relative;
-  box-shadow: 2px 5px 20px rgba(119, 119, 119, 0.5);
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.timeline, .conten{
+  padding:0px;
+  margin:0px;
+  box-sizing:border-box;
+  font-family:'Poppins', sans-serif;
+  perspective:800px;
 }
-
-.rightbox {
-  height: 100%;
+.timeline{
+  width:800px;
+  background-color:#072736;
+  color:#fff;
+  padding:30px 20px;
+  box-shadow:0px 0px 10px rgba(0,0,0,.5);
 }
-
-.rb-container {
-  font-family: "PT Sans", sans-serif;
-  width: 50%;
-  margin: auto;
-  display: block;
-  position: relative;
+.timeline ul{
+  list-style-type:none;
+  border-left:2px solid #094a68;
+  padding:10px 5px;
 }
-
-.rb-container ul.rb {
-  margin: 2.5em 0;
-  padding: 0;
-  display: inline-block;
+.timeline ul li{
+  padding:20px 20px;
+  position:relative;
+  cursor:pointer;
+  transition:.5s;
 }
-
-.rb-container ul.rb li {
-  list-style: none;
-  margin: auto;
-  margin-left: 10em;
-  min-height: 50px;
-  border-left: 1px dashed #fff;
-  padding: 0 0 50px 30px;
-  position: relative;
+.timeline ul li span{
+  display:inline-block;
+  background-color:#1685b8;
+  border-radius:25px;
+  padding:2px 5px;
+  font-size:15px;
+  text-align:center;
 }
-
-.rb-container ul.rb li:last-child {
-  border-left: 0;
+.timeline ul li .content h3{
+  color:#34ace0;
+  font-size:17px;
+  padding-top:5px;
 }
-
-.rb-container ul.rb li::before {
-  position: absolute;
-  left: -18px;
-  top: -5px;
-  content: " ";
-  border: 8px solid rgba(255, 255, 255, 1);
-  border-radius: 500%;
-  background: #50d890;
-  height: 35px;
-  width: 35px;
-  transition: all 500ms ease-in-out;
+.timeline ul li .content p{
+  padding:5px 0px 15px 0px;
+  font-size:15px;
 }
-
-.rb-container ul.rb li:hover::before {
-  border-color: #232931;
-  transition: all 1000ms ease-in-out;
+.timeline ul li:before{
+  position:absolute;
+  content:'';
+  width:10px;
+  height:10px;
+  background-color:#34ace0;
+  border-radius:50%;
+  left:-11px;
+  top:28px;
+  transition:.5s;
 }
-
-ul.rb li .timestamp {
-  color: #50d890;
-  position: relative;
-  width: 200px;
-  font-size: 16px;
+.timeline ul li:hover{
+  background-color:#071f2a;
 }
+.timeline ul li:hover:before{
+  background-color:#0F0;
+  box-shadow:0px 0px 10px 2px #0F0;
+}
+@media (max-width:300px){
+  .timeline{
+    width:100%;
+    padding:30px 5px 30px 10px;
+  }
+  .timeline ul li .content h3{
+    color:#34ace0;
+    font-size:15px;
+  }
 
-.item-title {
-  color: #fff;
 }
 
 #wrapper{
