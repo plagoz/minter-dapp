@@ -17,7 +17,7 @@
   background: #444444;
   color: white;
   border-radius: 8px;
-  max-width: 200px;
+  max-width: 400px;
 }
 
 /* Information about the timeline */
@@ -37,8 +37,8 @@
 .title::before {
   content: "";
   position: absolute;
-  width: 35px;
-  height: 35px;
+  width: 15px;
+  height: 15px;
   background: white;
   border-radius: 999px;
   left: -39px;
