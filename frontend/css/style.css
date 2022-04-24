@@ -14,7 +14,7 @@
   --btn-bg-color: #ffffff;
   --accent-color: #67687e;
   --header-shadow: var(--accent-color) 0px 0px 5px;
-  --card-shadow: var(--accent-color) 0px 0px 20px;*/
+  --card-shadow: var(--accent-color) 0px 0px 20px;
 }
 
 /** {
@@ -144,16 +144,16 @@ header .container {
   border-radius: 5px;
   border: 3px solid var(--accent-color);
   box-shadow: var(--card-shadow);
-  padding: 5rem;
-  margin-bottom: 2rem;
+  /*padding: 5rem;
+  margin-bottom: 2rem;*/
   opacity: 0;
-  transform: translateX(100vw);
-  transition: all 0.5s ease-in-out;
+  /*transform: translateX(100vw);
+  transition: all 0.5s ease-in-out;*/
 }
 
 .show-card {
   opacity: 1;
-  transform: translateX(0);
+  /*transform: translateX(0);*/
 }
 
 /* COUNTDOWN SECTION */
