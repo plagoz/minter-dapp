@@ -118,7 +118,7 @@
   }
 
   .left::after {
-    left: -10px;
+    right: 10px;
   }
 
 /* Make sure all circles are at the same spot */
