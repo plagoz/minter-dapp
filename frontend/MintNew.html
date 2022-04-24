@@ -60,107 +60,108 @@
         <div class="u-clearfix u-expanded-width u-gutter-10 u-layout-wrap u-layout-wrap-1">
           <div class="u-layout" style="">
             <div class="u-layout-row" style="">
-              <div class="u-container-style u-custom-color-4 u-layout-cell u-left-cell u-opacity u-opacity-80 u-size-36 u-size-xs-60 u-layout-cell-1 container not-connected" src="">
+              <div class="u-container-style u-custom-color-4 u-layout-cell u-left-cell u-opacity u-opacity-80 u-size-36 u-size-xs-60 u-layout-cell-1" src="">
                 <div class="u-container-layout u-container-layout-1">
-                  <h2 class="u-align-center u-text u-text-body-alt-color u-text-default u-text-1" id="welcomeH1">Riki The Tiger Minting Page</h2>
-                  <p class="u-align-center u-text u-text-body-alt-color u-text-2" id="welcomeH2"> Connect to MetaMask to Get Started</p>
-                  <button class="u-border-2 u-border-white u-btn u-btn-rectangle u-button-style u-custom-color-4 u-btn-1 wallet-btn btn" id="connectWallet">CONNECT WALLET</button>
-                </div>
-              </div>
-              <div class="u-container-style u-custom-color-4 u-layout-cell u-left-cell u-opacity u-opacity-80 u-size-36 u-size-xs-60 u-layout-cell-1 container" style="display:none" src="">
-                <div class="u-container-layout u-container-layout-1">
-                  
-                  <div class="countdown card">
-                    <div id="countdown">
-                      <ul class="count-down" data-date="">
-                        <li class="clock-item">
-                          <span class="count-number days">20</span>
-                          <p class="count-text">Days</p>
-                        </li>
-            
-                        <li class="clock-item">
-                          <span class="count-number hours">20</span>
-                          <p class="count-text">Hour</p>
-                        </li>
-            
-                        <li class="clock-item">
-                          <span class="count-number minutes">20</span>
-                          <p class="count-text">Min</p>
-                        </li>
-            
-                        <li class="clock-item">
-                          <span class="count-number seconds">20</span>
-                          <p class="count-text">Sec</p>
-                        </li>
-                      </ul>
-                      <h2 id="subHeading">Pre-Sale Countdown</h2>
+
+                  <section class="container not-connected">
+                    <h2 class="u-align-center u-text u-text-body-alt-color u-text-default u-text-1" id="welcomeH1">Riki The Tiger Minting Page</h2>
+                    <p class="u-align-center u-text u-text-body-alt-color u-text-2" id="welcomeH2"> Connect to MetaMask to Get Started</p>
+                    <button class="u-border-2 u-border-white u-btn u-btn-rectangle u-button-style u-custom-color-4 u-btn-1 wallet-btn btn" id="connectWallet">CONNECT WALLET</button>
+                  </section>
+
+                  <section class="container">
+                    <div class="countdown card">
+                      <div id="countdown">
+                        <ul class="count-down" data-date="">
+                          <li class="clock-item">
+                            <span class="count-number days">20</span>
+                            <p class="count-text">Days</p>
+                          </li>
+              
+                          <li class="clock-item">
+                            <span class="count-number hours">20</span>
+                            <p class="count-text">Hour</p>
+                          </li>
+              
+                          <li class="clock-item">
+                            <span class="count-number minutes">20</span>
+                            <p class="count-text">Min</p>
+                          </li>
+              
+                          <li class="clock-item">
+                            <span class="count-number seconds">20</span>
+                            <p class="count-text">Sec</p>
+                          </li>
+                        </ul>
+                        <h2 id="subHeading">Pre-Sale Countdown</h2>
+                      </div>
+                      <h1 id="mainHeading">NFT Drop Coming Soon!!</h1>
+                      <p id="mainText">
+                        A new batch of cute cats will be available very soon!
+                      </p>
+                      <a
+                        id="actionButton"
+                        href="https://google.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="hero-btn btn"
+                        ><span>Join Google</span>
+                      </a>
+                      <div id="mintContainer" class="mint-container hidden">
+                        <div class="info-container">
+                          <div>
+                            <h3>Supply</h3>
+                            <p id="totalSupply">10</p>
+                          </div>
+                          <div>
+                            <h3>Price Per Mint</h3>
+                            <p id="pricePerMint">0.001 ETH</p>
+                          </div>
+                          <div>
+                            <h3>Max</h3>
+                            <p id="maxPerMint">1 per wallet</p>
+                          </div>
+                        </div>
+                        <div class="mint-qty">
+                          <span>
+                            <button class="input-number-decrement btn" id="mintDecrement">–</button>
+                            <input
+                              id="mintInput"
+                              class="input-number btn"
+                              type="number"
+                              value="1"
+                              min="1"
+                              max="5"
+                            />
+                            <button class="input-number-increment btn" id="mintIncrement">+</button>
+                          </span>
+                          <button id="setQtyMax" class="btn">SET MAX</button>
+                        </div>
+                        <div class="total-price-container">
+                          <h3>Total</h3>
+                          <p id="totalPrice">.001 ETH</p>
+                        </div>
+                        <button id="mintButton" class="hero-btn btn mint-btn">Mint</button>
+                      </div>
                     </div>
-                    <h1 id="mainHeading">NFT Drop Coming Soon!!</h1>
-                    <p id="mainText">
-                      A new batch of cute cats will be available very soon!
-                    </p>
-                    <a
-                      id="actionButton"
-                      href="https://google.com"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      class="hero-btn btn"
-                      ><span>Join Google</span>
-                    </a>
-                    <div id="mintContainer" class="mint-container hidden">
-                      <div class="info-container">
-                        <div>
-                          <h3>Supply</h3>
-                          <p id="totalSupply">10</p>
-                        </div>
-                        <div>
-                          <h3>Price Per Mint</h3>
-                          <p id="pricePerMint">0.001 ETH</p>
-                        </div>
-                        <div>
-                          <h3>Max</h3>
-                          <p id="maxPerMint">1 per wallet</p>
-                        </div>
-                      </div>
-                      <div class="mint-qty">
-                        <span>
-                          <button class="input-number-decrement btn" id="mintDecrement">–</button>
-                          <input
-                            id="mintInput"
-                            class="input-number btn"
-                            type="number"
-                            value="1"
-                            min="1"
-                            max="5"
-                          />
-                          <button class="input-number-increment btn" id="mintIncrement">+</button>
-                        </span>
-                        <button id="setQtyMax" class="btn">SET MAX</button>
-                      </div>
-                      <div class="total-price-container">
-                        <h3>Total</h3>
-                        <p id="totalPrice">.001 ETH</p>
-                      </div>
-                      <button id="mintButton" class="hero-btn btn mint-btn">Mint</button>
+                    <div class="minted-container card show-card hidden">
+                      <h1>🎉</h1>
+                      <h2>Minted!</h2>
+                      <p>Here's your trasaction link:</p>
+                      <a id="mintedTxnBtn" href="" target="_blank" rel="noopener noreferrer">
+                        <button class="hero-btn btn">View Transaction</button>
+                      </a>
+                      <p>View it in the collection:</p>
+                      <a
+                        id="mintedLinkBtn"
+                        href="https://testnets.opensea.io/collection/robot-robot"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <button class="hero-btn btn">View Collection</button>
+                      </a>
                     </div>
-                  </div>
-                  <div class="minted-container card show-card hidden">
-                    <h1>🎉</h1>
-                    <h2>Minted!</h2>
-                    <p>Here's your trasaction link:</p>
-                    <a id="mintedTxnBtn" href="" target="_blank" rel="noopener noreferrer">
-                      <button class="hero-btn btn">View Transaction</button>
-                    </a>
-                    <p>View it in the collection:</p>
-                    <a
-                      id="mintedLinkBtn"
-                      href="https://testnets.opensea.io/collection/robot-robot"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <button class="hero-btn btn">View Collection</button>
-                    </a>
-                  </div>
+                  </section>
 
                 </div>
               </div>
