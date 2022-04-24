@@ -1,6 +1,6 @@
 /* Timeline Container */
 .timeline {
-  margin: 20px 50%;
+  margin: 20px 25%;
   padding: 20px;
 }
 
@@ -37,12 +37,12 @@
 .title::before {
   content: "";
   position: absolute;
-  width: 10px;
-  height: 10px;
+  width: 35px;
+  height: 35px;
   background: white;
   border-radius: 999px;
   left: -39px;
-  border: 35px solid #db0038;
+  border: 3px solid #db0038;
 }
  
  .u-section-1 {
