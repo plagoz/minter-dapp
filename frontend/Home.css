@@ -35,7 +35,7 @@
   position: absolute;
   width: 25px;
   height: 25px;
-  right: -17px;
+  right: -15px;
   background-color: #ededed;
   border: 4px solid #db0038;
   top: 15px;
@@ -115,10 +115,6 @@
     border: medium solid #444444;
     border-width: 10px 10px 10px 0;
     border-color: transparent #444444 transparent transparent;
-  }
-
-  .left::after {
-    right: 10px;
   }
 
 /* Make sure all circles are at the same spot */
