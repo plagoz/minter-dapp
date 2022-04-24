@@ -63,18 +63,18 @@ header .container {
 
 /* NOT CONNECTED */
 .not-connected {
-  align-items: center;
+  /*align-items: center;
   height: 100%;
   text-align: center;
-  margin: 0 auto 0 35vw;
+  margin: 0 auto 0 35vw;*/
   opacity: 0;
-  transform: translateY(10vh);
-  transition: all 0.5s ease-in-out;
+  /*transform: translateY(10vh);
+  transition: all 0.5s ease-in-out;*/
 }
 
 .show-not-connected {
   opacity: 1;
-  transform: translateY(0);
+  /*transform: translateY(0);*/
 }
 
 .not-connected h1 {
@@ -287,7 +287,7 @@ section {
 }
 
 .total-price-container p {
-  color: var(--accent-color);
+  color: var(--font-color);
 }
 
 /* MINTED CONTAINER */
@@ -316,7 +316,7 @@ section {
 
 /* SLIDDER */
 
-.splide {
+/*.splide {
   position: absolute;
   top: 90px;
   left: 5rem;
@@ -330,14 +330,14 @@ section {
 
 .splide__slide img {
   width: 100%;
-}
+}*/
 
 /* SPINNER */
 .dot-spin {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%) scale(3);
+  /*transform: translate(-50%, -50%) scale(3);*/
 }
 
 /* MEDIA QUERIES */
