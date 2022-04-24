@@ -117,7 +117,7 @@
     border-color: transparent #444444 transparent transparent;
   }
 
-  .left::after, {
+  .left::after {
     left: -10px;
   }
 
