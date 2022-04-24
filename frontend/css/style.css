@@ -77,7 +77,7 @@ header .container {
   /*transform: translateY(0);*/
 }
 
-.not-connected h1 {
+/*.not-connected h1 {
   text-shadow: 2px 2px 0 var(--accent-color);
   font-style: italic;
   margin: 2rem 0;
@@ -95,7 +95,7 @@ header .container {
   color: var(--accent-color);
   font-size: 1.5rem;
   font-weight: bold;
-}
+}*/
 
 /* BUTTONS */
 
