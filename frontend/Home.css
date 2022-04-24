@@ -117,6 +117,10 @@
     border-color: transparent #444444 transparent transparent;
   }
 
+  .left::after, {
+    left: -10px;
+  }
+
 /* Make sure all circles are at the same spot */
   .left::after, .right::after {
     left: 15px;
