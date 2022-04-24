@@ -17,14 +17,11 @@
   background: #444444;
   color: white;
   border-radius: 8px;
-  max-width: 400px;
+  max-width: 240px;
 }
 
 /* Information about the timeline */
 .info {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
 }
 
 /* Title of the card */
@@ -37,8 +34,8 @@
 .title::before {
   content: "";
   position: absolute;
-  width: 15px;
-  height: 15px;
+  width: 20px;
+  height: 20px;
   background: white;
   border-radius: 999px;
   left: -39px;
