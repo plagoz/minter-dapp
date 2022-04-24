@@ -119,7 +119,7 @@
 
 /* Make sure all circles are at the same spot */
   .left::after, .right::after {
-    left: -10px;
+    left: 15px;
   }
 
 /* Make all right containers behave like the left ones */
