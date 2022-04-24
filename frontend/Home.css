@@ -83,7 +83,7 @@
 
 /* Fix the circle for containers on the right side */
 .right::after {
-  left: -15px;
+  left: -10px;
 }
 
 /* The actual content */
