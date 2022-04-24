@@ -8,8 +8,8 @@
   --font-primary: "Roboto", sans-serif;
   --font-secondary: "Roboto", serif;
   --font-code: "Roboto", monospace;
-  --bg-color: #000000;
-  --bg-color-transparent: #00000080;
+  /*--bg-color: #000000;
+  --bg-color-transparent: #00000080;*/
   --font-color: #ffffff;
   --btn-bg-color: #ffffff;
   --accent-color: #67687e;
@@ -45,7 +45,7 @@ body {
 /* HEADER */
 
 header {
-  background-color: var(--bg-color);
+  /*background-color: var(--bg-color);*/
   box-shadow: var(--header-shadow);
 }
 
@@ -102,7 +102,7 @@ header .container {
 .btn {
   display: inline-block;
   padding: 1rem 2rem;
-  background: var(--btn-bg-color);
+  /*background: var(--btn-bg-color);*/
   color: var(--accent-color);
   font-family: var(--font-secondary);
   font-style: italic;
@@ -140,7 +140,7 @@ header .container {
 
 .card {
   position: relative;
-  background-color: var(--bg-color);
+  /*background-color: var(--bg-color);*/
   border-radius: 5px;
   border: 3px solid var(--accent-color);
   box-shadow: var(--card-shadow);
@@ -200,7 +200,7 @@ section {
   background: var(--btn-bg-color);
   font-family: var(--font-secondary);
   font-size: 1.1rem;
-  color: var(--bg-color);
+  /*color: var(--bg-color);*/
   padding: 0.5rem 0.7rem;
   display: inline-block;
   width: 100%;
@@ -352,7 +352,7 @@ section {
     max-width: 8rem;
   }
   .not-connected {
-    background-color: var(--bg-color-transparent);
+    /*background-color: var(--bg-color-transparent);*/
     border-radius: 5px;
     padding: 2rem;
     margin: 0 auto;
