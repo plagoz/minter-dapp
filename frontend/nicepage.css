@@ -36453,14 +36453,14 @@ a.u-link.u-text-hover-grey-90:hover {
         .u-table-alt-custom-color-4 tr:nth-child(even)
         {
             color: #ffffff;
-            background-color: #333333;
+            background-color: #444444;
         }
 
         .u-button-style.u-custom-color-4,
         .u-button-style.u-custom-color-4[class*="u-border-"]
         {
             color: #ffffff !important;
-            background-color: #333333 !important;
+            background-color: #444444 !important;
         }
 
         .u-button-style.u-custom-color-4:hover,
@@ -37518,7 +37518,18 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-sheet-1 {
-  min-height: 84px;
+  min-height: 97px;
+}
+
+.u-header .u-btn-1 {
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  letter-spacing: 2px;
+  background-image: none;
+  border-style: solid;
+  align-self: center;
+  margin: 29px auto 0;
+  padding: 10px 34px;
 }
 
 .u-header .u-social-icons-1 {
@@ -37526,7 +37537,7 @@ a.u-link.u-text-hover-grey-90:hover {
   min-height: 16px;
   width: 304px;
   min-width: 180px;
-  margin: 22px 0 0 auto;
+  margin: -43px 0 0 auto;
 }
 
 .u-header .u-icon-1 {
@@ -37552,7 +37563,7 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-header .u-image-1 {
   width: 74px;
   height: 31px;
-  margin: -36px auto 27px 0;
+  margin: -36px auto 30px 0;
 }
 
 .u-header .u-logo-image-1 {
@@ -37560,12 +37571,18 @@ a.u-link.u-text-hover-grey-90:hover {
   height: 100%;
 }
 @media (max-width: 1199px) {
+  .u-header .u-btn-1 {
+    margin-top: 21px;
+  }
+
   .u-header .u-social-icons-1 {
     width: 304px;
+    margin-top: -42px;
   }
 
   .u-header .u-image-1 {
     margin-top: -36px;
+    margin-bottom: 40px;
   }
 }
 
