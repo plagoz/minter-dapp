@@ -126,10 +126,9 @@ header .container {
 
 .wallet-btn {
   /*border-radius: 5rem;*/
-  left: 50%;
   border-color: white;
   color: white;
-  width: 200px;
+  width: 300px;
 }
 
 .hero-btn {
