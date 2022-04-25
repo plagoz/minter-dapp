@@ -127,7 +127,9 @@ header .container {
 .wallet-btn {
   /*border-radius: 5rem;*/
   left: 50%;
-  /*border-color: transparent;*/
+  border-color: white;
+  color: white;
+  width: 200px;
 }
 
 .hero-btn {
