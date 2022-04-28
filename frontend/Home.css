@@ -1,4 +1,4 @@
-.disabled {
+.noHover {
   pointer-events: none;
   opacity: 0;
 }
