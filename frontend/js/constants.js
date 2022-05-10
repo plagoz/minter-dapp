@@ -3,7 +3,7 @@ const chain = 'rinkeby'; // rinkeby or polygon
 
 const welcome_h1 = "Riki The Tiger Minting Page";
 const welcome_h2 = "Connect to MetaMask to Get Started";
-const welcome_p = 'The Robot Robot NFT Project is a decentralized, open-source project that aims to demonstrate how to develope and launch your own NFT Collection. Follow step by step on the <a href="https://youtube.com/codestackr"  target="_blank" rel="noopener noreferrer">codeSTACKr</a> YouTube channel.';
+const welcome_p = 'Project137 collaborates with EIGER Adventure to launch the first Non-Fungible Token (NFT) collection named Riki The Tiger series, inspired by the tiger which is an endangered animal in Indonesia.';
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
 const h1_presale_mint = "";
 const h1_public_mint = "Minting Open!!";
