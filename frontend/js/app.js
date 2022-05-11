@@ -4,11 +4,11 @@ let accounts;
 window.addEventListener("DOMContentLoaded", async () => {
   const welcomeH1 = document.getElementById("welcomeH1");
   const welcomeH2 = document.getElementById("welcomeH2");
-  /*const welcomeP = document.getElementById("welcomeP");*/
+  const welcomeP = document.getElementById("welcomeP");
 
   welcomeH1.innerText = welcome_h1;
   welcomeH2.innerText = welcome_h2;
-  /*welcomeP.innerHTML = welcome_p;*/
+  welcomeP.innerHTML = welcome_p;
 
   if (window.ethereum) {
     window.web3 = new Web3(window.ethereum);
@@ -24,7 +24,7 @@ window.addEventListener("DOMContentLoaded", async () => {
     });
   }
 
-  /*const splide = new Splide(".splide", {
+  const splide = new Splide(".splide", {
     type: "loop",
     arrows: false,
     perMove: 3,
@@ -35,7 +35,7 @@ window.addEventListener("DOMContentLoaded", async () => {
     width: '30vw',
     autoHeight: true,
   });
-  splide.mount();*/
+  splide.mount();
 
   updateConnectStatus();
   if (MetaMaskOnboarding.isMetaMaskInstalled()) {
